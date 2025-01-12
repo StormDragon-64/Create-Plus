@@ -20,7 +20,9 @@ This is half of the reason I made this pack. All the vanilla+ packs I could find
 Maximally optimized with every optimization mod availible for forge, configured to not conflict and each new one manually tested alongside the rest to see if it actually helps in practice (unlike redirector). I also removed the resource slurping mods so those optimizations wouldn't go to waste (I'm looking at you, sound physics remastered).
 
 ## 📶 Made For Multiplayer
-With e4mc included no server setup is needed, allowing you to open your LAN world to the whole world (and thus your friends too), with a server pack still availible to allow you to easily setup a server so your friends can play even when you aren't.
+With e4mc included no server setup is needed, allowing you to open your LAN world to your friends _instantly_.
+Or maybe you're looking for a server instead so your friends can play even when you aren't? Then you should try out Kinetic Hosting! They have _the best_ value compared to every other host I could find, and if you don't believe me, then go compare plans yourself. You can even get 15% off your first month by using code **PLUS**!  
+[![Kinetic Hosting linked image](https://cdn.modrinth.com/data/cached_images/1f458183aed1841a03663a9aab499c1bc03042b5_0.webp)](https://billing.kinetichosting.net/aff.php?aff=1024)
 
 ## ✅ All Optifine Features Availible
 Most Optifine features are included out of the box and others can be downloaded as extra mods afterwards (skybox and extra gui features are the only ones not included) Fresh Animations and Connected textures are pre-enabled, and Complementary Reimangined can be toggled on with k as soon as you get in a world.  
