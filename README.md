@@ -1,10 +1,10 @@
 **Create+ is a vanilla+ modpack focused on Create, it's addons, and the experience you have using them. It also mainntains most of the balance of vanilla and keeps the game performant enough to run on laptops.**
 
-![CurseForge (now unsupported) Downloads](https://img.shields.io/curseforge/dt/519787?style=flat&logo=curseforge&logoColor=f16436&label=Curseforge%20(now%20unsupported)%20Downloads&color=f16436&link=https%3A%2F%2Fwww.curseforge.com%2Fminecraft%2Fmodpacks%2Fcreate-mod-plus)
+![CurseForge Downloads](https://img.shields.io/curseforge/dt/519787?logo=curseforge&logoColor=f16436&label=Downloads&color=f16436&link=https%3A%2F%2Fwww.curseforge.com%2Fminecraft%2Fmodpacks%2Fcreate-mod-plus)
 ![Modrinth Downloads](https://img.shields.io/modrinth/dt/create_plus?logo=modrinth&logoColor=1bd96a&label=Downloads&color=1bd96a&link=https%3A%2F%2Fmodrinth.com%2Fmodpack%2Fcreate_plus)
 
 ![Modrinth Version](https://img.shields.io/modrinth/v/create_plus?logo=modrinth&logoColor=1bd96a&label=Version&color=1bd96a&link=https%3A%2F%2Fmodrinth.com%2Fmodpack%2Fcreate_plus)
-![CurseForge Version](https://img.shields.io/curseforge/v/519787?logo=curseforge&logoColor=f16436&label=Version&color=f16436)
+![CurseForge Version](https://img.shields.io/curseforge/v/519787?logo=curseforge&logoColor=f16436&label=Version%20(now%20deprecated)&color=f16436)
 
 Wondering what Create is? Watch this video:
 <details>
