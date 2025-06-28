@@ -1,0 +1,9 @@
+{
+    "custom": "Custom Changes",
+    "general": "General",
+    "introduction.mdx": "Introduction",
+    "mem-allocation.mdx": "Allocation the right amount of RAM to Create+",
+    "compat-with-old-worlds.mdx": "Allowing compatibility with old worlds",
+    "faq.mdx": "FAQ",
+    "paxi.mdx": "Included datapack and resourcepack"
+}
