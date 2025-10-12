@@ -13,22 +13,23 @@ services:
     tty: true
     stdin_open: true
     ports:
-      - "25565:25565" # change left side of : to change port when using bridge modee
+      - "25565:25565" # change left side of : to change port when using bridge mode
     environment:
-      TZ: Europe/Zurich # Set this to your Timezone
-      EULA: "FALSE" # change this to TRUE if you accept the EULA of Mojang
+#      TZ: Europe/Zurich # Set this to your Timezone or leave commented out for UTC
+      EULA: "TRUE" # change this to TRUE if you accept the EULA of Mojang
       MODRINTH_MODPACK: t1tOiUHZ
-      MODRINTH_PROJECTS: HXF82T3G # remove this line to remove "Biomes O' Plenty" or extend it with your own mod IDs
-      MODRINTH_EXCLUDE_FILES: Barsita # Barsita is a client-only mod and will cause the server to crash. Extend it with your own if neccesary.
-      INIT_MEMORY: 8G # You can set limits for both the container and the JVM. I recommend to use > 5GB for MAX_MEMORY and set INIT_MEMORY to something slightly lower and add 1GB for the container. See https://docker-minecraft-server.readthedocs.io/en/latest/configuration/jvm-options/#memory-limit
-      MAX_MEMORY: 13G
+#      MODRINTH_PROJECTS: HXF82T3G # uncomment this line to include "Biomes O' Plenty" or change it to use your own modrinth mod IDs
+      MODRINTH_EXCLUDE_FILES: Barsita # Barista is a client-only mod and will cause the server to crash. Extends this list to exclude more mods if nessecsary.  
+      INIT_MEMORY: 2G # You can set limits for both the container and the JVM. I recommend to use > 5GB for MAX_MEMORY and set INIT_MEMORY to something slightly lower and add 1GB for the container. See https://docker-minecraft-server.readthedocs.io/en/latest/configuration/jvm-options/#memory-limit
+      MAX_MEMORY: 8G
       DIFFICULTY: normal # Choose difficulty, "peaceful", "easy", "normal" or "hard": https://docker-minecraft-server.readthedocs.io/en/latest/configuration/server-properties/#difficulty
       WHITELIST: your_player_name # Only allow these players to join, highly recommended, use commans to list multiple players: https://docker-minecraft-server.readthedocs.io/en/latest/configuration/server-properties/#whitelist-players
       OPS: your_player_name # Comma separated list of operators, allowing them to cheat and enter creative mode https://docker-minecraft-server.readthedocs.io/en/latest/configuration/server-properties/#opadministrator-players
       MAX_PLAYERS: 20 # Set this to how many players can play concurrently
       PVP: true # Set to "true" or "false"
       SPAWN_PROTECTION: 0 # 0 disables protection. See https://minecraft.wiki/w/Server.properties#spawn-protection
-      VIEW_DISTANCE: 10 # Configures server side viewing distance, can be increased up to 32, may cause major lag!
+      SIMULATION_DISTANCE: "5" # Configures how many chunks in radius around each player process things such as entity movement. Higher distances may needlessly impact performance without improving gameplay, caps at 32.
+      VIEW_DISTANCE: 12 # Configures server side view distance in radius, can be increased up to 32. Higher distances allow more chunks to be sent to the client, which may cause major lag!
       HARDCORE: false # Set this to "false" or "true". Set to true if you like pain and suffering
       MOTD: Just another Create+ server # Change this to what MOTD should be displayed. Use " if using colors. See https://docker-minecraft-server.readthedocs.io/en/latest/configuration/server-properties/#message-of-the-day
       TYPE: MODRINTH
