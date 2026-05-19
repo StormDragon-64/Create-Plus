@@ -2,15 +2,14 @@ Aeronautics is out, and an alpha release of Create+ is out with it! Remember tho
 
 -------------------------------------------------------------------------------------
 
-### Create+ is built around a simple concept: A completely Vanilla+ modpack, but with one exception that the pack is built to have you focus on: _Create_.   
+### Create+ is built around a simple concept: A simple Vanilla+ modpack, but with one exception that the pack revolves around: _Create_.   
 ![Modrinth Downloads](https://modrinth.roughness.technology/t1tOiUHZ.svg)
 ![CurseForge Downloads](https://cf.way2muchnoise.eu/519787.svg)  
-You can expect Vanilla+ mods like Supplementaries as well as Create addons like Create: Aeronautics. It will also have mods to have players focus on the Create way of doing things - that is, the build it yourself way - like Aileron, so instead of just making a firework rocket farm, people will need to build planes, helicopters, or whatever they want in order to venture vast distances quicker.  
+You can expect Vanilla+ mods like Supplementaries as well as Create addons like Create: Aeronautics. It will also have mods to have players focus on the Create way of doing things - that is, the build it yourself way - such as Aileron. With it, in order to venture vast distances or travel quickly, players can't just make a bunch of firework rockets. They'll have to actually build planes, trains, helicopters, or whatever else floats their boat to do so. And don't forget about the infrastructure they'll need to build to do so.
 
 
 **Create+ also:**
-- Is Performant and lightweight. 
-
+- Is Performant and lightweight. See the:
 <details>
 <summary>List of performance mods</summary>
   
@@ -37,7 +36,7 @@ You can expect Vanilla+ mods like Supplementaries as well as Create addons like 
 
 <br> 
 
-- Not including Iris (for now, while it still has issues with Aeronautics) (When Iris is present some immediately fast optimizations get disabled, which is why you get better performance without it even if you aren't using shaders) (Ignore the parenthesis spamming)
+- Not including Iris (for now, while it still has issues with Aeronautics) (when Iris is present some immediately fast optimizations get disabled, which is why you get better performance without it even if you aren't using shaders) (sorry for the parenthesis spamming)
 - Technically TooManyRecipeViewers, since it+EMI is faster than JEI+EMI
 - Fast Paintings (technically an optimization mod)
 
@@ -51,7 +50,7 @@ Voicechat is already included, and it also has e4mc if you don't want to pay for
 
 - Has a truly Vanilla+ base. No unbalanced, bloated, unnecessary mods. For example, Farmer's Delight and some addons for it, Quark (with some modules disabled), Amendments, etc. as well as smaller tweaks like potions stacking to 16 and Lootr.  
   
-And plenty more. I hope you like it! If you have any suggestions or encounter any issues, you can visit the report issues link on the side of this description.
+And plenty more. I hope you like it! If you have any suggestions or encounter any issues, just make an issue here on this GitHub repo.
 
 
 <details>
