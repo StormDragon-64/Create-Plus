@@ -1,324 +1,211 @@
-**Create+ is a vanilla+ modpack focused on Create, it's addons, and the experience you have using them. It also mainntains most of the balance of vanilla and keeps the game performant enough to run on laptops.**
+Aeronautics is out, and an alpha release of Create+ is out with it! Remember though, it is an alpha. It has undergone minimal survival mode gameplay testing and there is generally just less polish than a full release. It also isn't entirely complete - it is missing a server pack, I have yet to update Create: Components and Additions, and there are mods I really wish were on this version but aren't yet, like Tetra. But, I knew many of you would want to try out Aeronautics just like I do, so here you go.  
 
-![CurseForge Downloads](https://img.shields.io/curseforge/dt/519787?logo=curseforge&logoColor=f16436&label=Downloads&color=f16436&link=https%3A%2F%2Fwww.curseforge.com%2Fminecraft%2Fmodpacks%2Fcreate-mod-plus)
-![Modrinth Downloads](https://img.shields.io/modrinth/dt/create_plus?logo=modrinth&logoColor=1bd96a&label=Downloads&color=1bd96a&link=https%3A%2F%2Fmodrinth.com%2Fmodpack%2Fcreate_plus)
+-------------------------------------------------------------------------------------
 
-![Modrinth Version](https://img.shields.io/modrinth/v/create_plus?logo=modrinth&logoColor=1bd96a&label=Version&color=1bd96a&link=https%3A%2F%2Fmodrinth.com%2Fmodpack%2Fcreate_plus)
-![CurseForge Version](https://img.shields.io/curseforge/v/519787?logo=curseforge&logoColor=f16436&label=Version%20(now%20deprecated)&color=f16436)
+### Create+ is built around a simple concept: A completely Vanilla+ modpack, but with one exception that the pack is built to have you focus on: _Create_.   
+![Modrinth Downloads](https://modrinth.roughness.technology/t1tOiUHZ.svg)
+![CurseForge Downloads](https://cf.way2muchnoise.eu/519787.svg)  
+You can expect Vanilla+ mods like Supplementaries as well as Create addons like Create: Aeronautics. It will also have mods to have players focus on the Create way of doing things - that is, the build it yourself way - like Aileron, so instead of just making a firework rocket farm, people will need to build planes, helicopters, or whatever they want in order to venture vast distances quicker.  
 
-Wondering what Create is? Watch this video:
+
+**Create+ also:**
+- Is Performant and lightweight. 
+
 <details>
-<summary>Spoiler</summary>
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/rR8W-f9YhYA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<summary>List of performance mods</summary>
+  
+- Flevorium
+- Sodium (obviously)
+- Entity Culling
+- Modernfix (with dynamic resources now enabled since issues were fixed)
+- Lithium
+- FerriteCore
+- ImmediatelyFast
+- Kerria
+- Fast Noise
+- Ixeris
+- C2ME
+- Cerulean
+- NERB (EMI has a craftables view, you know)
+- BadOptimizations
+- More Culling
+- Structure Layout Optimizer
+- Quickpack
+- Better Biome Reblend
+- Async Logger
+- Create Smart Bounds
+
+<br> 
+
+- Not including Iris (for now, while it still has issues with Aeronautics) (When Iris is present some immediately fast optimizations get disabled, which is why you get better performance without it even if you aren't using shaders) (Ignore the parenthesis spamming)
+- Technically TooManyRecipeViewers, since it+EMI is faster than JEI+EMI
+- Fast Paintings (technically an optimization mod)
+
+Since you looked this far, you should also try using Java 25 and the jvm flags `-XX:+UseZGC -XX:+UseCompactObjectHeaders`. No need to unlock experimental vm options. You're welcome :)
 </details>
 
+- Is Built for survival multiplayer with friends.   
+Voicechat is already included, and it also has e4mc if you don't want to pay for a server or host one yourself. Although, if you want your friends to be able to play while you aren't on, [Kinetic](https://billing.kinetichosting.com/aff.php?aff=1024) is pretty cheap... <sup><sub> $7/month? For 8GB RAM? In this economy!?!<sup><sub>  
 
-## ✨Vanilla+
-This is half of the reason I made this pack. All the vanilla+ packs I could find were just... not. (Well, at least for what I think counts as vanilla+) The only big content mod in this pack is Create, and I guess its addons as well, because thats the focus of the pack (It _is_ in the name) Otherwise, there's only simple additions, tweaks, an imroved experience, the best type of gear is still netherite, and the game remains about as balanced and polished as vanilla.
+- Has the visual upgrades your used to, like EMF+ETF for Fresh Animations and Fresh Player Extension, Polytone to support Visual Effects+, Continuity for connected textures, etc.. There are also smaller niceties like smooth swapping and eating animations.
 
-## ⚡Performance 
-Maximally optimized with every optimization mod availible for forge, configured to not conflict and each new one manually tested alongside the rest to see if it actually helps in practice (unlike redirector). I also removed the resource slurping mods so those optimizations wouldn't go to waste (I'm looking at you, sound physics remastered).
+- Has a truly Vanilla+ base. No unbalanced, bloated, unnecessary mods. For example, Farmer's Delight and some addons for it, Quark (with some modules disabled), Amendments, etc. as well as smaller tweaks like potions stacking to 16 and Lootr.  
+  
+And plenty more. I hope you like it! If you have any suggestions or encounter any issues, you can visit the report issues link on the side of this description.
 
-## 📶 Made For Multiplayer
-With e4mc included no server setup is needed, allowing you to open your LAN world to your friends _instantly_.
-Or maybe you're looking for a server instead so your friends can play even when you aren't? Then you should try out Kinetic Hosting! They have _the best_ value compared to every other host I could find, and if you don't believe me, then go compare plans yourself. You can even get 15% off your first month by using code **PLUS**!  
-[![Kinetic Hosting linked image](https://cdn.modrinth.com/data/cached_images/1f458183aed1841a03663a9aab499c1bc03042b5_0.webp)](https://billing.kinetichosting.net/aff.php?aff=1024)
 
-## ✅ All Optifine Features Availible
-Most Optifine features are included out of the box and others can be downloaded as extra mods afterwards (skybox and extra gui features are the only ones not included) Fresh Animations and Connected textures are pre-enabled, and Complementary Reimangined can be toggled on with k as soon as you get in a world.  
-<br />
-<br />
- 
-List of included mods:
 <details>
-<summary>List of included mods</summary>
+<summary>All included mods (as of 6.0 Early Alpha E):</summary>
 
-- [Snow! Real Magic! ⛄](https://modrinth.com/mod/snow-real-magic)
-- [ImmediatelyFast](https://modrinth.com/mod/immediatelyfast)
-- [Size Shifting Potions](https://modrinth.com/mod/sizeshiftingpotions)
-- [Supplementaries](https://modrinth.com/mod/supplementaries)
-- [Corpse](https://modrinth.com/mod/corpse)
-- [KleeSlabs](https://modrinth.com/mod/kleeslabs)
-- [Connectedness](https://modrinth.com/mod/connectedness)
-- [Companion 🐕](https://modrinth.com/mod/companion)
-- [Elytra Slot](https://modrinth.com/mod/elytra-slot)
-- [Kiwi 🥝](https://modrinth.com/mod/kiwi)
-- [OAuth](https://modrinth.com/mod/oauth)
-- ender_chested-1.19.1-1.1.0.jar
-- [Noisium (Unofficial forge port)](https://modrinth.com/mod/noisium-(unofficial-forge-port))
-- [Horse Stonks](https://modrinth.com/mod/horse-stonks)
-- [Superflat World No Slimes](https://modrinth.com/mod/superflat-world-no-slimes)
-- [Scaffolding Drops Nearby](https://modrinth.com/mod/scaffolding-drops-nearby)
-- [Neapolitan](https://modrinth.com/mod/neapolitan)
-- [Bed Benefits](https://modrinth.com/mod/bed-benefits)
-- [Cloth Config API](https://modrinth.com/mod/cloth-config)
-- [EMI](https://modrinth.com/mod/emi)
-- [iChunUtil](https://modrinth.com/mod/ichunutil)
-- [Iceberg](https://modrinth.com/mod/iceberg)
-- [Embeddium](https://modrinth.com/mod/embeddium)
-- [Pehkui](https://modrinth.com/mod/pehkui)
-- [Figura](https://modrinth.com/mod/figura)
-- clientcrafting-1.19.2-1.6.jar
-- torchslabmod-1.19.2_v1.7.4.jar
-- FastSuite-1.19.2-4.1.1.jar
-- [Fusion (Connected Textures)](https://modrinth.com/mod/fusion-connected-textures)
-- [Iris/Oculus & GeckoLib Compat](https://modrinth.com/mod/geckoanimfix)
-- [Ender Relay](https://modrinth.com/mod/ender-relay-ff)
-- [Bedspreads](https://modrinth.com/mod/bedspreads)
-- [Async Locator](https://modrinth.com/mod/async-locator)
-- [My Nether's Delight](https://modrinth.com/mod/my-nethers-delight)
-- [Create: Connected](https://modrinth.com/mod/create-connected)
-- [Ender Pearl Swap](https://modrinth.com/mod/ender-pearl-swap)
-- [Create Central Kitchen](https://modrinth.com/mod/create-central-kitchen)
-- [Xaero's World Map](https://modrinth.com/mod/xaeros-world-map)
-- [Necronomicon API](https://modrinth.com/mod/necronomicon)
-- [Canary](https://modrinth.com/mod/canary)
-- [Additional Banners](https://modrinth.com/mod/additional-banners)
-- [Cake Chomps](https://modrinth.com/mod/cake-chomps)
-- [Majrusz Library](https://modrinth.com/mod/majrusz-library)
-- miners_delight-1.19.2-1.1.2.jar
-- [UniLib](https://modrinth.com/mod/unilib)
-- [Create Enchantment Industry](https://modrinth.com/mod/create-enchantment-industry)
-- [Caelus API](https://modrinth.com/mod/caelus)
-- [Just Enough Items](https://modrinth.com/mod/jei)
-- [Create: Extended Cogwheels](https://modrinth.com/mod/extended-cogwheels)
-- [Create: Bells & Whistles](https://modrinth.com/mod/bellsandwhistles)
-- [Chalk](https://modrinth.com/mod/chalk-mod)
-- [Zume](https://modrinth.com/mod/zume)
-- [Pluto](https://modrinth.com/mod/pluto)
-- [YUNG's Better Jungle Temples](https://modrinth.com/mod/yungs-better-jungle-temples)
-- [Lightspeed](https://modrinth.com/mod/lightspeed)
-- [Resourcify](https://modrinth.com/mod/resourcify)
-- [No More Poison with Regeneration](https://modrinth.com/mod/nmpr)
-- [SuperMartijn642's Core Lib](https://modrinth.com/mod/supermartijn642s-core-lib)
-- [Screenshot Viewer](https://modrinth.com/mod/screenshot-viewer)
-- [Advancement Frames](https://modrinth.com/mod/advancement-frames)
-- [Create: Power Loader](https://modrinth.com/mod/create-power-loader)
-- [Woodworks](https://modrinth.com/mod/woodworks)
-- [e4mc](https://modrinth.com/mod/e4mc)
-- [YUNG's Better Ocean Monuments](https://modrinth.com/mod/yungs-better-ocean-monuments)
-- [bad packets](https://modrinth.com/mod/badpackets)
-- SignButton-1.19-2.5.0.jar
-- [Memory Leak Fix](https://modrinth.com/mod/memoryleakfix)
-- [Easy Villagers](https://modrinth.com/mod/easy-villagers)
-- [Kotlin for Forge](https://modrinth.com/mod/kotlin-for-forge)
-- [Mysterious Mountain Lib](https://modrinth.com/mod/mmlib)
-- [Wavey Capes](https://modrinth.com/mod/wavey-capes)
-- [Paintable](https://modrinth.com/mod/paintable)
-- [Boat Break Fix](https://modrinth.com/mod/boat-break-fix)
-- [Not Enough Animations](https://modrinth.com/mod/not-enough-animations)
-- [Every Compat (Wood Good)](https://modrinth.com/mod/every-compat)
-- [FindMe](https://modrinth.com/mod/findme)
-- [ModernFix](https://modrinth.com/mod/modernfix)
-- [Paxi](https://modrinth.com/mod/paxi)
-- Chimes-v2.0.1-1.19.2.jar
-- [Create: Crystal Clear](https://modrinth.com/mod/create-crystal-clear)
-- [Create: Framed](https://modrinth.com/mod/create-framed)
-- [FiveHead](https://modrinth.com/mod/5head)
-- [Respiteful](https://modrinth.com/mod/respiteful)
-- [AppleSkin](https://modrinth.com/mod/appleskin)
-- [Fluidlogged](https://modrinth.com/mod/fluidlogged)
-- [Create: Steam 'n' Rails](https://modrinth.com/mod/create-steam-n-rails)
-- Quark Programmer Art.zip
-- [Keep My Soil Tilled](https://modrinth.com/mod/keep-my-soil-tilled)
-- create-confectionery1.19.2_v1.0.9.jar
-- [Create: Trading floor](https://modrinth.com/mod/create-trading-floor)
-- [Very Many Players (Forge)](https://modrinth.com/mod/vmp-forge)
-- [Death Knell](https://modrinth.com/mod/death-knell)
-- [Measurements](https://modrinth.com/mod/measurements)
-- [CraftPresence](https://modrinth.com/mod/craftpresence)
-- Delightful-1.19.2-3.4.1.jar
-- citadel-2.1.4-1.19.jar
-- [ Server Tab Info](https://modrinth.com/mod/server-tab-info)
-- [Untitled Duck Mod](https://modrinth.com/mod/untitled-duck-mod)
-- [Lootr](https://modrinth.com/mod/lootr)
-- [Despawning Eggs Hatch](https://modrinth.com/mod/despawning-eggs-hatch)
-- [Carry On](https://modrinth.com/mod/carry-on)
-- carpeted-1.19.2-1.8.jar
-- [Chat Heads](https://modrinth.com/mod/chat-heads)
-- [Create Jetpack](https://modrinth.com/mod/create-jetpack)
-- [mutil](https://modrinth.com/mod/mutil)
-- [Rechiseled](https://modrinth.com/mod/rechiseled)
-- BeeFix-1.19-1.0.7.jar
-- [Responsive Shields](https://modrinth.com/mod/responsiveshields)
-- [Clayworks](https://modrinth.com/mod/clayworks)
-- [Simple Netherite Horse Armor](https://modrinth.com/mod/simple-netherite-horse-armor)
-- [GpuTape](https://modrinth.com/mod/gputape)
-- ElytraBombing-Forge-1.19.2-1.0.0.jar
-- [Moonlight Lib](https://modrinth.com/mod/moonlight)
-- [Extended Bone Meal](https://modrinth.com/mod/extended-bone-meal)
-- [Keep Head Names](https://modrinth.com/mod/keepheadnames)
-- [The Endergetic Expansion](https://modrinth.com/mod/endergetic)
-- [spark](https://modrinth.com/mod/spark)
-- eatinganimation-1.19-3.2.0.jar
-- [Void Totem](https://modrinth.com/mod/voidtotem)
-- [Panda's Falling Tree's](https://modrinth.com/mod/pandas-falling-trees)
-- [Embeddium (Rubidium) Extra](https://modrinth.com/mod/rubidium-extra)
-- [Corn Delight](https://modrinth.com/mod/corn-delight)
-- Connectible Chains-forge-1.19.2-2.1.4.jar
-- [YUNG's Better Witch Huts](https://modrinth.com/mod/yungs-better-witch-huts)
-- [Berry Good](https://modrinth.com/mod/berry-good)
-- [Random Shulker Colours](https://modrinth.com/mod/random-shulker-colours)
-- [YUNG's API](https://modrinth.com/mod/yungs-api)
-- [EMI Loot](https://modrinth.com/mod/emi-loot)
-- [BetterF3](https://modrinth.com/mod/betterf3)
-- [Hourglass](https://modrinth.com/mod/hourglass)
-- [No Chat Reports](https://modrinth.com/mod/no-chat-reports)
-- [Farmer's Cutting: Quark](https://modrinth.com/mod/farmers-cutting-quark)
-- [Icterine](https://modrinth.com/mod/icterine)
-- cupboard-1.19.2-2.6.jar
-- [CoroUtil](https://modrinth.com/mod/coroutil)
-- [Radiant Gear](https://modrinth.com/mod/radiant-gear)
-- [Create: Factory](https://modrinth.com/mod/create-factory)
-- [[EMF] Entity Model Features](https://modrinth.com/mod/entity-model-features)
-- [Fresh Animations](https://modrinth.com/resourcepack/fresh-animations)
-- [Create Slice & Dice](https://modrinth.com/mod/slice-and-dice)
-- [Bookshelf](https://modrinth.com/mod/bookshelf-lib)
-- [End's Delight](https://modrinth.com/mod/ends-delight)
-- [Xaero's Minimap](https://modrinth.com/mod/xaeros-minimap)
-- [Create: Interiors](https://modrinth.com/mod/interiors)
-- [Sit](https://modrinth.com/mod/bl4cks-sit)
-- [NetherPortalFix](https://modrinth.com/mod/netherportalfix)
-- [Better Safe Bed](https://modrinth.com/mod/better-safe-bed)
-- [Grindstone Sharper Tools](https://modrinth.com/mod/grindstone-sharper-tools)
-- [Saturn](https://modrinth.com/mod/saturn)
-- [TexTrue's Embeddium Options](https://modrinth.com/mod/textrues-embeddium-options)
-- [YUNG's Better Strongholds](https://modrinth.com/mod/yungs-better-strongholds)
-- [Simple Voice Chat](https://modrinth.com/mod/simple-voice-chat)
-- [Torch hit!](https://modrinth.com/mod/torch-hit)
-- [Architectury API](https://modrinth.com/mod/architectury-api)
-- [Better Tridents](https://modrinth.com/mod/better-tridents)
-- goldenhopper-1.2.8-1.19.jar
-- [Weaker Spiderwebs](https://modrinth.com/mod/weaker-spiderwebs)
-- [Better Advancements](https://modrinth.com/mod/better-advancements)
-- [Oculus](https://modrinth.com/mod/oculus)
-- [[ETF] Entity Texture Features](https://modrinth.com/mod/entitytexturefeatures)
-- [Joy of Painting](https://modrinth.com/mod/joy-of-painting)
-- [Axes Are Weapons](https://modrinth.com/mod/axes-are-weapons)
-- [TrashSlot](https://modrinth.com/mod/trashslot)
-- [Easy Anvils](https://modrinth.com/mod/easy-anvils)
-- v_slab_compat-1.19.2-1.9.jar
-- randomium-1.19.2-1.22.jar
-- [Forgeshot](https://modrinth.com/mod/forgeshot)
-- [Quark](https://modrinth.com/mod/quark)
-- [Better Statistics Screen](https://modrinth.com/mod/better-stats)
-- [tetra](https://modrinth.com/mod/tetra)
-- [mclo.gs](https://modrinth.com/mod/mclogs)
-- [Statement](https://modrinth.com/mod/statement)
-- [Balm](https://modrinth.com/mod/balm)
-- [Mouse Tweaks](https://modrinth.com/mod/mouse-tweaks)
-- [Placement+](https://modrinth.com/mod/placement+)
-- [AutoRegLib](https://modrinth.com/mod/autoreglib)
-- [Projectiles](https://modrinth.com/mod/projectiles)
-- createaddition-1.19.2-1.2.3.jar
-- [Collective](https://modrinth.com/mod/collective)
-- suppsquared-1.19.2-1.1.1.jar
-- [Complementary Shaders - Reimagined](https://modrinth.com/shader/complementary-reimagined)
-- catalogue-1.7.0-1.19.2.jar
-- [Polymorph](https://modrinth.com/mod/polymorph)
-- [ItemLocks](https://modrinth.com/mod/itemlocks)
-- itlt-1.19.012-2.2.0.jar
-- [RyoamicLights](https://modrinth.com/mod/ryoamiclights)
-- [Another Furniture](https://modrinth.com/mod/another-furniture)
-- [Jade Addons (NeoForge)](https://modrinth.com/mod/jade-addons-forge)
-- [Customizable Elytra](https://modrinth.com/mod/customizable-elytra)
-- forgetmechunk-(forge)-mc1.19.2-0.0.1.jar
-- [Domestication Innovation](https://modrinth.com/mod/domestication-innovation)
-- [Blueprint](https://modrinth.com/mod/blueprint)
-- [Sophisticated Backpacks](https://modrinth.com/mod/sophisticated-backpacks)
-- Placebo-1.19.2-7.4.0.jar
-- [Reforgium](https://modrinth.com/mod/reforgium)
-- [Dynamic FPS](https://modrinth.com/mod/dynamic-fps)
-- [Ding](https://modrinth.com/mod/ding)
-- [Snowballs Freeze Mobs](https://modrinth.com/mod/snowballs-freeze-mobs)
-- [Fast Paintings](https://modrinth.com/mod/fast-paintings)
-- [Comforts](https://modrinth.com/mod/comforts)
-- [Not Enough Recipe Book [NERB]](https://modrinth.com/mod/nerb)
-- [Alternate Current](https://modrinth.com/mod/alternate-current)
-- [Cobweb](https://modrinth.com/mod/cobweb)
-- [Entity Collision FPS Fix](https://modrinth.com/mod/entity-collision-fps-fix)
-- [What Are They Up To (Watut)](https://modrinth.com/mod/what-are-they-up-to)
-- [Item Highlighter](https://modrinth.com/mod/item-highlighter)
-- lazydfu-1.19-1.0.2.jar
-- [SuperMartijn642's Config Lib](https://modrinth.com/mod/supermartijn642s-config-lib)
-- [Sophisticated Storage](https://modrinth.com/mod/sophisticated-storage)
-- [YUNG's Bridges](https://modrinth.com/mod/yungs-bridges)
-- [Create: Components and Additions](https://modrinth.com/mod/create-ca)
-- [Visuality: Reforged](https://modrinth.com/mod/visuality-forge)
-- clickadv-1.19.2-3.6.jar
-- [Create: Molten Vents](https://modrinth.com/mod/create-molten-vents)
-- [Fastload](https://modrinth.com/mod/fastload)
-- [Controlling](https://modrinth.com/mod/controlling)
-- [Allurement](https://modrinth.com/mod/allurement!)
-- [FancyMenu](https://modrinth.com/mod/fancymenu)
-- [Oh My Gourd!](https://modrinth.com/mod/oh-my-gourd)
-- [Armor Statues](https://modrinth.com/mod/armor-statues)
-- connectivity-1.19.2-4.6.jar
-- [YUNG's Better Mineshafts](https://modrinth.com/mod/yungs-better-mineshafts)
-- [Storage Labels](https://modrinth.com/mod/labels)
-- [Yeetus Experimentus](https://modrinth.com/mod/yeetus-experimentus)
-- [Majrusz's Enchantments](https://modrinth.com/mod/majruszs-enchantments)
-- [Just Player Heads](https://modrinth.com/mod/just-player-heads)
-- [Puzzles Lib](https://modrinth.com/mod/puzzles-lib)
-- [Smarter Farmers (farmers replant)](https://modrinth.com/mod/smarter-farmers-farmers-replant)
-- [Cubes Without Borders](https://modrinth.com/mod/cubes-without-borders)
-- [Curios API](https://modrinth.com/mod/curios)
-- [YUNG's Better Nether Fortresses](https://modrinth.com/mod/yungs-better-nether-fortresses)
-- [Magnum Torch](https://modrinth.com/mod/magnum-torch)
-- [YUNG's Better Dungeons](https://modrinth.com/mod/yungs-better-dungeons)
-- FarmersRespite-1.19-2.0.jar
-- [YUNG's Better Desert Temples](https://modrinth.com/mod/yungs-better-desert-temples)
-- [Do a Barrel Roll](https://modrinth.com/mod/do-a-barrel-roll)
-- [BadOptimizations](https://modrinth.com/mod/badoptimizations)
-- [Jade 🔍](https://modrinth.com/mod/jade)
-- alloyed-1.19.2-v1.5a.jar
-- [Friends & Foes (Forge/NeoForge)](https://modrinth.com/mod/friends-and-foes-forge)
-- [Detail Armor Bar](https://modrinth.com/mod/detail-armor-bar)
-- [Rechiseled: Create](https://modrinth.com/mod/rechiseled-create)
-- [Sophisticated Core](https://modrinth.com/mod/sophisticated-core)
-- [Configured Defaults](https://modrinth.com/mod/configured-defaults)
-- [YUNG's Extras](https://modrinth.com/mod/yungs-extras)
-- [Rebind Narrator](https://modrinth.com/mod/rebind-narrator)
-- [ObsidianUI](https://modrinth.com/mod/obsidianui)
-- [Infusion Table](https://modrinth.com/mod/infusion-table)
-- logprot-1.19.2-1.9.jar
-- [Suggestion Provider Fix](https://modrinth.com/mod/suggestionproviderfix)
-- [Curious Lanterns](https://modrinth.com/mod/curious-lanterns)
-- [YUNG's Better End Island](https://modrinth.com/mod/yungs-better-end-island)
-- [Clumps](https://modrinth.com/mod/clumps)
-- [I Want That Back](https://modrinth.com/mod/iwtb)
-- [PandaLib](https://modrinth.com/mod/pandalib)
-- [CoFH Core](https://modrinth.com/mod/cofh-core)
-- [Glass Breaker](https://modrinth.com/mod/glassbreaker)
-- [Iris & Oculus Flywheel Compat](https://modrinth.com/mod/iris-flw-compat)
-- [Create: Pattern Schematics](https://modrinth.com/mod/create-pattern-schematics)
-- [Melody](https://modrinth.com/mod/melody)
-- [Observable](https://modrinth.com/mod/observable)
-- ServerTickReforged-1.19.2-0.0.2.jar
-- [Boatload](https://modrinth.com/mod/boatload)
-- [Creeper Firework](https://modrinth.com/mod/creeper-firework)
-- [Abnormals Delight](https://modrinth.com/mod/abnormals-delight)
-- [Create Big Cannons](https://modrinth.com/mod/create-big-cannons)
-- configured-2.1.1-1.19.2.jar
-- [FerriteCore](https://modrinth.com/mod/ferrite-core)
-- [Create](https://modrinth.com/mod/create)
-- [Skippy Pearls](https://modrinth.com/mod/skippy-pearls)
-- [Ecologics](https://modrinth.com/mod/ecologics)
-- [Portals Gui](https://modrinth.com/mod/portals-gui)
-- [Capes](https://modrinth.com/mod/capes)
-- [Structure Layout Optimizer](https://modrinth.com/mod/structure-layout-optimizer)
-- [Aquatic Torches](https://modrinth.com/mod/aquatic-torches)
-- [Rare Ice](https://modrinth.com/mod/rare-ice)
-- [Konkrete](https://modrinth.com/mod/konkrete)
-- [FeyTweaks](https://modrinth.com/mod/feytweaks)
-- [Fast Portals](https://modrinth.com/mod/fast-portals)
-- [Item Obliterator](https://modrinth.com/mod/item-obliterator)
-- [Block Runner](https://modrinth.com/mod/block-runner)
-- [Geckolib](https://modrinth.com/mod/geckolib)
-- CIT Reforged 1.19.jar
-- [Potion Bundles](https://modrinth.com/mod/potion-bundles)
-- [Entity Culling](https://modrinth.com/mod/entityculling)
-- [Cull Leaves](https://modrinth.com/mod/cull-leaves)
-- [Farmer's Delight](https://modrinth.com/mod/farmers-delight)
+### Mods
+
+- [[EMF] Entity Model Features](https://modrinth.com/mod/4I1XuqiY)
+- [[ETF] Entity Texture Features](https://modrinth.com/mod/BVzZfTc1)
+- [Aileron](https://modrinth.com/mod/b8kG1VGq)
+- [Alloyed](https://modrinth.com/mod/KUInlTFo)
+- [Amendments](https://modrinth.com/mod/6iTJugQR)
+- [Another Furniture](https://modrinth.com/mod/ulloLmqG)
+- [AppleSkin](https://modrinth.com/mod/EsAfCjCV)
+- [Architectury API](https://modrinth.com/mod/lhGA9TYQ)
+- [Armor Statues](https://modrinth.com/mod/bbGCtEvb)
+- [Async Logger](https://modrinth.com/mod/zvNzKfGF)
+- [AsyncParticles](https://modrinth.com/mod/c3onkd5k)
+- [Axes Are Weapons](https://modrinth.com/mod/1jvt7RTc)
+- [BadOptimizations](https://modrinth.com/mod/g96Z4WVZ)
+- [Balm](https://modrinth.com/mod/MBAkmtvl)
+- [Better Advancements](https://modrinth.com/mod/Q2OqKxDG)
+- [Better Biome Reblend](https://modrinth.com/mod/Xh8hkQmD)
+- [Bookshelf](https://modrinth.com/mod/uy4Cnpcm)
+- [Carry On](https://modrinth.com/mod/joEfVgkn)
+- [Cerulean](https://modrinth.com/mod/dv57xmf9)
+- [Chat Heads](https://modrinth.com/mod/Wb5oqrBJ)
+- [Cloth Config API](https://modrinth.com/mod/9s6osm5g)
+- [Companion 🐕](https://modrinth.com/mod/4w0EzGRW)
+- [Concurrent Chunk Management Engine (NeoForge)](https://modrinth.com/mod/COlSi5iR)
+- [Configured Defaults](https://modrinth.com/mod/SISoSFPP)
+- [Connector Extras](https://modrinth.com/mod/FYpiwiBR)
+- [Continuity](https://modrinth.com/mod/1IjD5062)
+- [Controlling](https://modrinth.com/mod/xv94TkTM)
+- [CoroUtil](https://modrinth.com/mod/rLLJ1OZM)
+- [Create](https://modrinth.com/mod/LNytGWDc)
+- [Create Aeronautics](https://modrinth.com/mod/oWaK0Q19)
+- [Create Big Cannons](https://modrinth.com/mod/GWp4jCJj)
+- [Create Slice & Dice](https://modrinth.com/mod/GmjmRQ0A)
+- [Create Smart Bounds](https://modrinth.com/mod/kSok4DxT)
+- [Create: Bells & Whistles](https://modrinth.com/mod/gJ5afkVv)
+- [Create: Bits 'n' Bobs](https://modrinth.com/mod/T8bvmqVZ)
+- [Create: Cardboarded Conveynience](https://modrinth.com/mod/dWU6xUnj)
+- [Create: Extended Wrenches](https://modrinth.com/mod/WNRCHiE5)
+- [Create: Factory](https://modrinth.com/mod/j6Zt3N7W)
+- [Create: Framed](https://modrinth.com/mod/15fFZ3f4)
+- [Create: Pattern Schematics](https://modrinth.com/mod/cpqKG67r)
+- [Create: Prismatic Shine](https://modrinth.com/mod/udEtt0b2)
+- [Create: Shuffle Filter](https://modrinth.com/mod/gv5RRavC)
+- [Cut Through](https://modrinth.com/mod/Dk6su9JN)
+- [Detail Armor Bar Reconstructed](https://modrinth.com/mod/Si9Uim4y)
+- [Ding](https://modrinth.com/mod/UEtTD3gP)
+- [Distracting Trims](https://modrinth.com/mod/xQU6E1ee)
+- [Dynamic FPS](https://modrinth.com/mod/LQ3K71Q1)
+- [e4mc](https://modrinth.com/mod/qANg5Jrr)
+- [Easy Anvils](https://modrinth.com/mod/OZBR5JT5)
+- [Eating Animations](https://modrinth.com/mod/X8CISwXp)
+- [Ecologics](https://modrinth.com/mod/NCKpPR0Z)
+- [EMI](https://modrinth.com/mod/fRiHVvU7)
+- [EMI Loot](https://modrinth.com/mod/qbbO7Jns)
+- [EMI++](https://modrinth.com/mod/AWMWYMwC)
+- [End's Delight](https://modrinth.com/mod/yHN0njMr)
+- [Entity Culling](https://modrinth.com/mod/NNAgCjsB)
+- [Explosive Enhancement: Reforged](https://modrinth.com/mod/r0camchr)
+- [Farmer's Delight](https://modrinth.com/mod/R2OftAxM)
+- [Fast Noise](https://modrinth.com/mod/OnlVIpq5)
+- [Fast Paintings](https://modrinth.com/mod/z3TzcquW)
+- [FerriteCore](https://modrinth.com/mod/uXXizFIs)
+- [Flerovium](https://modrinth.com/mod/4Rh1Mobu)
+- [Forgified Fabric API](https://modrinth.com/mod/Aqlf1Shp)
+- [Fzzy Config](https://modrinth.com/mod/hYykXjDp)
+- [GPUBooster](https://modrinth.com/mod/5CTSrY8X)
+- [GroovyModLoader (GML)](https://modrinth.com/mod/zg2tT2Vu)
+- [iChunUtil](https://modrinth.com/mod/W6ROj0Hl)
+- [ImmediatelyFast](https://modrinth.com/mod/5ZwdcRci)
+- [Inventory Blur](https://modrinth.com/mod/lTS6nyFs)
+- [Ixeris](https://modrinth.com/mod/p8RJPJIC)
+- [Kerria](https://modrinth.com/mod/f0ruQTF7)
+- [Kiwi 🥝](https://modrinth.com/mod/ufdDoWPd)
+- [Konkrete](https://modrinth.com/mod/J81TRJWm)
+- [Kotlin for Forge](https://modrinth.com/mod/ordsPcFz)
+- [LambDynamicLights - Dynamic Lights](https://modrinth.com/mod/yBW8D80W)
+- [Lithium](https://modrinth.com/mod/gvQqBUqZ)
+- [Lodestone](https://modrinth.com/mod/bN3xUWdo)
+- [Lootr](https://modrinth.com/mod/EltpO5cN)
+- [M.R.U](https://modrinth.com/mod/SNVQ2c0g)
+- [Map Atlases [Forge]](https://modrinth.com/mod/4hwXMFif)
+- [Miner's Delight](https://modrinth.com/mod/qMxbM4BQ)
+- [Model Gap Fix](https://modrinth.com/mod/QdG47OkI)
+- [ModernFix](https://modrinth.com/mod/nmDcB62a)
+- [Moonlight Lib](https://modrinth.com/mod/twkfQtEc)
+- [More Culling](https://modrinth.com/mod/51shyZVL)
+- [More Sounds](https://modrinth.com/mod/8jvcOd6S)
+- [Mouse Tweaks](https://modrinth.com/mod/aC3cM3Vq)
+- [My Nether's Delight](https://modrinth.com/mod/O53VhQoZ)
+- [Neo Bee Fix](https://modrinth.com/mod/DzSY371i)
+- [NetherPortalFix](https://modrinth.com/mod/nPZr02ET)
+- [Not Enough Animations](https://modrinth.com/mod/MPCX6s5C)
+- [Not Enough Recipe Book [NERB]](https://modrinth.com/mod/bQh7xzFq)
+- [Particle Effects](https://modrinth.com/mod/PLAGcSFJ)
+- [Polytone](https://modrinth.com/mod/3qAYkBMB)
+- [Potion Stacks](https://modrinth.com/mod/CQTUbhIo)
+- [Prickle](https://modrinth.com/mod/aaRl8GiW)
+- [Puzzles Lib](https://modrinth.com/mod/QAGBst4M)
+- [Quark](https://modrinth.com/mod/qnQsVE2z)
+- [quick pack](https://modrinth.com/mod/pSISfJ4O)
+- [Reconnectible Chains](https://modrinth.com/mod/5pzBXDS3)
+- [Reese's Sodium Options](https://modrinth.com/mod/Bh37bMuy)
+- [Resourceful Config](https://modrinth.com/mod/M1953qlQ)
+- [Resourcify](https://modrinth.com/mod/RLzHAoZe)
+- [Ritchie's Projectile Library](https://modrinth.com/mod/B3pb093D)
+- [Sable](https://modrinth.com/mod/T9PomCSv)
+- [Sable: Physics Compat](https://modrinth.com/mod/sZbcIrJb)
+- [Scholar](https://modrinth.com/mod/fX4dIQCo)
+- [Seamless Sleep](https://modrinth.com/mod/IyHq05yB)
+- [Searchables](https://modrinth.com/mod/fuuu3xnx)
+- [ShatterLib | OctoLib](https://modrinth.com/mod/RH2KUdKJ)
+- [Simple Netherite Horse Armor](https://modrinth.com/mod/nDFVOeq7)
+- [Simple Voice Chat](https://modrinth.com/mod/9eGKb6K1)
+- [Sinytra Connector](https://modrinth.com/mod/u58R1TMW)
+- [SmartBlockPlacement](https://modrinth.com/mod/WVehudAZ)
+- [Smarter Farmers (farmers replant)](https://modrinth.com/mod/Bh6ZOMvp)
+- [Smooth Swapping](https://modrinth.com/mod/ydZic5r4)
+- [Sodium](https://modrinth.com/mod/AANobbMI)
+- [Sodium Extra](https://modrinth.com/mod/PtjYWJkn)
+- [Sophisticated Backpacks](https://modrinth.com/mod/TyCTlI4b)
+- [Sophisticated Core](https://modrinth.com/mod/nmoqTijg)
+- [Sounds](https://modrinth.com/mod/ZouiUX7t)
+- [Status Effect Bars Reforged](https://modrinth.com/mod/TxIuhIFo)
+- [Steam 'n' Rails Neoforge](https://modrinth.com/mod/L3Jv0QZI)
+- [Structure Layout Optimizer](https://modrinth.com/mod/ayPU0OHc)
+- [Supplementaries](https://modrinth.com/mod/fFEIiSDQ)
+- [ToolTipFix](https://modrinth.com/mod/2RKFTmiB)
+- [TooManyRecipeViewers](https://modrinth.com/mod/yFypjcfd)
+- [TrashSlot](https://modrinth.com/mod/vRYk0bv7)
+- [TxniLib](https://modrinth.com/mod/vBbPDuOs)
+- [Updating World Icon](https://modrinth.com/mod/ZlX3EVmE)
+- [Yeetus Experimentus](https://modrinth.com/mod/HaaH232J)
+- [YetAnotherConfigLib (YACL)](https://modrinth.com/mod/1eAoo2KR)
+- [YUNG's API](https://modrinth.com/mod/Ua7DFN59)
+- [YUNG's Better Desert Temples](https://modrinth.com/mod/XNlO7sBv)
+- [YUNG's Better Dungeons](https://modrinth.com/mod/o1C1Dkj5)
+- [YUNG's Better Nether Fortresses](https://modrinth.com/mod/Z2mXHnxP)
+- [YUNG's Better Ocean Monuments](https://modrinth.com/mod/3dT9sgt4)
+- [YUNG's Better Strongholds](https://modrinth.com/mod/kidLKymU)
+- [YUNG's Extras](https://modrinth.com/mod/ZYgyPyfq)
+- [Zeta](https://modrinth.com/mod/MVARlG2f)
+- [Zume](https://modrinth.com/mod/o6qsdrrQ)
+
+### Resource Packs
+
+- [Fresh Animations](https://modrinth.com/resourcepack/50dA9Sha)
+- [Fresh Animations: Player Extension](https://modrinth.com/resourcepack/TAIMVZCL)
+- [Visual Effects+](https://modrinth.com/resourcepack/ZyZknBVG)
 
 </details>
+
